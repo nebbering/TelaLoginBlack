@@ -6,7 +6,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(#000000, #434343);
+    background-image: url("wall.png");
+
 }
 
 .login-box {
@@ -20,6 +21,9 @@ body {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
 }
 
 .login-box h2 {
