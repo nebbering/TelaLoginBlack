@@ -3,6 +3,10 @@ html {
 }
 
 body {
+    max-width: 1920px;
+    min-width: 320px;
+    max-height: 1080px;
+    min-height: 568px;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -14,7 +18,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
+    max-width: 400px;
+    min-width: 320px;
     padding: 40px;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, .5);
@@ -176,6 +181,7 @@ body {
     }
 
 .info h3 {
+    
     color: #ff0043;
     text-align: center;
     font-size: 50px;
