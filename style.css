@@ -187,3 +187,10 @@ body {
     font-size: 50px;
     text-align: center;
 }
+
+.txt {
+    font-size: 14px;
+    color: #ff0043;
+    text-align: center;
+    text-decoration: none;
+}
